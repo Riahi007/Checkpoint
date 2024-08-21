@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            background-color: #0c9a68;
+            color: white;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            text-align: center;
+        }
+        nav p {
+            color: white;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+       
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid grey;
+            border-radius: 4px;
+        }
+        form button {
+            background-color: #0c9a68;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <p>Accueil</p>
+        <p>À propos<p>
+        <p>Travail<p>
+        <p>CV<p>
+        <p>Contact<p>
+    </nav>
+
+    <section>
+        <h1>Accueil</h1>
+        <p>Bienvenue sur mon site web. Explorez les différentes sections pour en savoir plus.</p>
+    </section>
+
+    <section>
+        <h2>À propos</h2>
+        <p>Je suis un développeur web passionné avec plusieurs années d'expérience dans la création de sites web dynamiques et interactifs.</p>
+    </section>
+
+    <section>
+        <h2>Travail</h2>
+        <p>Voici quelques exemples de projets sur lesquels j'ai travaillé :</p>
+        <ul>
+            <li>Projet 1 - Description du projet.</li>
+            <li>Projet 2 - Description du projet.</li>
+            <li>Projet 3 - Description du projet.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>CV</h2>
+        <p>Consultez mon CV en téléchargeant le fichier ci-dessous :</p>
+        <a href="">Télécharger mon CV</a>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+</body>
+</html>
